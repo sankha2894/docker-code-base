@@ -1,0 +1,13 @@
+package com.docker.springboothellodocker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootHelloDockerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootHelloDockerApplication.class, args);
+	}
+
+}
